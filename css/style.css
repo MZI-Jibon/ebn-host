@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* --------------------
+    Navbar SATART
+------------------ */
+
+/* --------------------
+    Top Navbar
+------------------ */
+
+.ebn-nav-btn {
+    
+    padding: 6px 15px;
+    background-color: #0e5077;
+    color: #fff;
+    border-radius: 3px;
+}
+.ebn-nav-btn:hover {
+    /* color: #fff; */
+    background-color: #00649b;
+}
+
+/* --------------------
+    Bottom Navbar
+------------------ */
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.bottom-nav>.navbar {
+    padding: 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: white;
+    background: #043d5f;
+}
+.dropdown-menu, .dropdown-menu[data-bs-popper] {
+    border-radius: 0;
+    margin-top: 0;
+    box-shadow: 0px 5px 10px lightgrey;
+}
+
+
+/* Shutter In Vertical */
+.hvr-shutter-in-vertical {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-shutter-in-vertical:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0e5077;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
+    color: white;
+    background: #043d5f;
+    box-shadow: none;
+  }
+  .hvr-shutter-in-vertical:hover:before, .hvr-shutter-in-vertical:focus:before, .hvr-shutter-in-vertical:active:before {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+
+/* Shutter In Vertical */
+.hvr-left-section-btn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-left-section-btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #5cb85c;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-left-section-btn:hover, .hvr-left-section-btn:focus, .hvr-left-section-btn:active {
+    color: white;
+    background: #5cb85c;
+    box-shadow: none;
+  }
+  .hvr-left-section-btn:hover:before, .hvr-left-section-btn:focus:before, .hvr-left-section-btn:active:before {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+
+
+  
+/* --------------------
+    Navbar END
+------------------ */
+  
+/* --------------------
+    Left section START
+------------------ */
+.accordion-button{
+    background-color: #f5f5f5;
+
+}  
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #f5f5f5;
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    background-color: #f5f5f5;
+}
+
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ddd'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after{
+    float: left;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ddd'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-item{
+    border: 1px solid #f5f5f5;
+}
+.ebn-bg-light {
+    background: #f5f5f5;
+}
+
+i{
+    font-size: .8rem;
+}
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.ebn-left-btn {
+    
+    background: #5cb85c;
+    color: #fff;
+    border-radius: 3px;
+}
+.ebn-left-btn:hover {
+    color: #fff;
+    background-color: #398439;
+}
+.ebn-left-white-btn {
+    
+    background: white;
+    color: #000;
+    border: 1px solid #ccc;
+    
+}
+.ebn-left-white-btn:hover {
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+.list-group-item{
+    border: 1px solid #f5f5f5;
+}
+.list-group-item-action:focus{
+    background: #444;
+    color: white;
+}
+.list-icon, footer i{
+    color: #ccc;
+}
+
+/* --------------------
+    Left section END
+------------------ */
+
+/* --------------------
+ Right section STARTS 
+------------------ */
+.welcome-hr{
+    width: 96% ;
+}
+.font,.services-header,.breadcrumb-item.active{
+    color: #058;
+}
+.breadcrumb,.services-body{
+    font-size: .75rem;
+}
+.breadcrumb-item>a,.services-body{
+    color: #888;
+    text-decoration: none;
+}
+.breadcrumb-item>a:hover{
+    color: #888;
+    text-decoration: underline;
+}
+.service:hover{
+    background: #eee;
+}
+.border-end {
+    border-right: 1px solid #c8c9ca!important;
+}
+.services-font {
+    font-family: 'Open Sans', sans-serif;
+}
+.services-hr{
+    width: 100% !important;
+    opacity: 1;
+    height: 2px !important;
+}
+.services-hr-1{
+    background-color: #5bc0de;
+}
+.services-hr-2{
+    background-color: #5cb85c;
+}
+.services-hr-3{
+    background-color: #d9534f;
+}
+.services-hr-4{
+    background-color: #f0ad4e;
+}
+.form-control-lg{
+    padding-left: 3rem;
+}
+.form-control:focus {
+    color: #888;
+    background-color: #fff;
+    border-color: #ccc;
+    outline: 0;
+    box-shadow: none;
+}
+.search-bar{
+    margin-left: -.15rem;
+    padding-right: .75rem;
+}
+
+
+
+.service-details{
+    padding: 0 0px 0px 12px;
+}
+
+/* Common box Design  */
+.box-heading{
+    font-size: 1.1rem;
+}
+.box-btn{
+    padding: 0px 5px !important;
+    height: 1.3rem;
+    font-size: .8rem;
+
+}
+.box-btn:hover{
+    background: #ccc;
+    color: #333 !important;
+
+}
+
+/* Individual box design  */
+
+/* box 1 */
+.box-1-border{
+    background: none;
+    border-top:solid #f0ad4e  !important;
+    border-bottom: 1.3rem solid #f5f5f5 !important;
+}
+
+.box-btn-1{
+    background: #f0ad4e;
+
+}
+
+/* box 2 */
+.box-2-border{
+    background: none;
+    border-top:solid #5bc0de  !important;
+    border-bottom: 1.3rem solid #f5f5f5 !important;
+}
+
+.box-btn-2{
+    background: #5bc0de;
+
+}
+/* box 3 */
+.box-3-border{
+    background: none;
+    border-top:solid #5cb85c  !important;
+    border-bottom: 1.3rem solid #f5f5f5 !important;
+}
+
+.box-btn-3{
+    background: #5cb85c;
+
+}
+.box-btn-3-1{
+    background: #5cb85c;
+    color: #fff;
+}
+.box-btn-3-1:hover{
+    background: #398439;
+    color: #fff;
+}
+.box-btn-3-2:hover{
+    background: #c8c9ca;
+    border-color: 1px solid #888 !important;
+}
+.box-border{
+    border: 1px solid #ccc;
+}
+.box-border:focus-visible{
+    color: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-color: 1px solid #ccc;
+}
+/* box 4 */
+.box-4-border{
+    background: none;
+    border-top:solid #888  !important;
+    border-bottom: 1.3rem solid #f5f5f5 !important;
+}
+
+.box-btn-4{
+    background: #888;
+}
+.box-btn-4:hover{
+    background: #ccc;
+}
+
+
+
+/* --------------------
+    Right section END
+------------------ */
+
+footer{
+    height: 5rem;
+}

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/90414352ef.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>EBN Host</title>
+</head>
+<body>
+    <header>
+        <!-- Top Navbar -->
+
+        <div class="top-nav">
+            <nav class="navbar navbar-expand-sm navbar-light ">
+                <div class="container container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" >
+                </a>
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          English
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Select your Language</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Spanish</a></li>
+                          <li><a class="dropdown-item" href="#">Hibru</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Notifications
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Notification 1</a></li>
+                          <li><a class="dropdown-item" href="#">Notification 2</a></li>
+                          <li><a class="dropdown-item" href="#">Notification 3</a></li>
+                        </ul>
+                      </li>                      
+                      <span class="border-end mx-3"></span>
+
+                    </ul>
+                      <button class="btn ebn-nav-btn hvr-shutter-in-vertical fw-light" type="submit">Logout</button>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <!-- Bottom Navbar -->
+
+        <div class="bottom-nav ">
+            <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color: #0e5077;">
+                <div class="container container-fluid ">
+                  <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link active hvr-shutter-in-vertical" aria-current="page" href="#">Home</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  hvr-shutter-in-vertical" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  hvr-shutter-in-vertical" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Domains
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle hvr-shutter-in-vertical" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Billig
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle hvr-shutter-in-vertical" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Support
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active  hvr-shutter-in-vertical" aria-current="page" href="support.html" >Open Ticket</a>
+                      </li>
+                      <li class="nav-item">
+                        
+                        <a class="nav-link active hvr-shutter-in-vertical" aria-current="page" href="#">Affiliates</a>
+                      </li>
+                    </ul>
+<!----------------------------- User Area -------------------------->
+                    <div class="" >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle " style="background-color: #043d5f;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Hello, User !
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>        
+    </header>
+
+    <main>
+        <div class="container pt-4">
+            <div class="row">
+
+ <!--------------------------------------------------------------
+  ---------------------Left Section STARTS ---------------------
+----------------------------------------------------------------->
+
+              <div class="col-lg-3">
+                  <!-- Row 1 -->
+                <div class="row mb-3">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button fw-light align-items-end" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                             <i class="fas fa-life-ring pe-2 "></i> Support pin
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body text-center pb-0  ">
+                              <p class="font">131313</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item text-center ebn-bg-light px-3">
+                          <button type="button" class="btn ebn-left-btn container-fluid fs-6 fw-lighter rounded-1  py-1 my-2 hvr-left-section-btn">
+                            <i class="fas fa-plus"></i> Create new pin</button>
+                        </div>
+                        
+                      </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="row mb-3">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button fw-light align-items-end" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                              <i class="fas fa-user pe-2"></i> Your Info
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body text-start pb-0  lh-1">
+
+                              <p class="fw-bold mb-1">BeValid</p>
+                              <p class="fst-italic my-2">MD Bayezid</p>
+                              <p class="my-2">Manikganj</p>
+                              <p class="my-2">Dhaka Bangladesh</p>
+                              <p class="my-2">Dhaka, Manikganj, 1800</p>
+                              <p class="mt-2">Bangladesh</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item text-center ebn-bg-light px-3 ">
+                          <button type="button" class="btn ebn-left-btn container-fluid fs-6 fw-lighter rounded-1 px-5 py-1 my-2 hvr-left-section-btn">
+                            <i class="fas fa-pencil-alt"></i>  Update  </button>
+                        </div>
+                        
+                      </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="row mb-3">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button fw-light align-items-end" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                             <i class="far fa-folder pe-2 "></i> Contacts
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body text-center pb-0  ">
+                              <p class="text-start">No contacts found</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item text-center ebn-bg-light px-3">
+                          <button type="button" class="btn ebn-left-white-btn container-fluid fs-6 fw-lighter rounded-1 py-1 my-2 ">
+                            <i class="fas fa-plus"></i> New contact... </button>
+                        </div>
+                        
+                      </div>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="row mb-3">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button fw-lighter  align-items-end"  type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                                <i class="fas fa-bookmark pe-2 "></i> Shortcuts
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body text-center p-0 ">
+                                <div class="list-group text-start">
+                                    
+                                    <a href="#" class="text-decoration-none">
+                                        <button type="button" class="list-group-item list-group-item-action d-flex align-items-center" style="font-size: .9rem;"> Order New Service <i class="fas fa-shopping-cart ms-auto list-icon"></i>
+                                        </button>
+                                    </a>
+                                    <a href="#" class="text-decoration-none">
+                                        <button type="button" class="list-group-item list-group-item-action d-flex align-items-center " style="font-size: .9rem;">
+                                            Register a New Domain
+                                            <i class="fas fa-globe ms-auto list-icon"></i>
+                                        </button> 
+                                    </a>
+                                    <a href="#" class="text-decoration-none">
+                                        <button type="button" class="list-group-item list-group-item-action d-flex align-items-center" style="font-size: .9rem;">
+                                        Logout
+                                        <i class="fas fa-arrow-left ms-auto list-icon"></i>
+                                        </button>
+                                    </a>
+                                    
+                                  </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                      </div>
+                </div>
+
+              </div>
+            <!-- --- Left Section ENDS  ---- -->
+
+
+<!----------------------------------------------------------------
+ --------------------- Right Section STARTS ---------------------
+---------------------------------3 color-light----------------------------->
+                
+              <div class="col-12 col-lg-9 ps-4 pe-0">
+                  <!-- User Name Section -->
+                <div class="row">
+                    <h1 class="font ">Welcome Back, User</h1>
+                    <hr class="welcome-hr mx-2  mb-1 text-center">
+                </div>
+                <!-- Breadcrumb -->
+                <div>
+                    <ol class="breadcrumb ">
+                    <li class="breadcrumb-item"><a href="#">Portal Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Client Area</li>
+                  </ol>
+                </div>
+                
+<!----------------- Service Section ---------------------->
+
+        <!------ Services summary  ------->
+                <div class="container ps-2 ">
+                    <div class="row row-cols-2 row-cols-md-4 ">
+                
+              <!-- Services summary 1 -->
+                  <div class="col service border-end ebn-bg-light ">
+                            <div class=" d-flex">
+                            <div class="services-font pt-4 " >
+                                <h1 class="services-header mb-0">1</h1>
+                                <p class="services-body fw-bold mb-0">SERVICES</p>
+                                
+
+                            </div>
+
+                            <div class="list-icon pt-2 ms-auto">
+                                <i class="fas fa-cube fs-1"></i>
+
+                            </div>
+                            
+                        </div>
+                        <hr class="services-hr services-hr-1 mt-1 "> 
+                        </div>
+                <!-- Services summary 2 -->
+                      
+                    <div class="col service border-end ebn-bg-light ">
+                        <div class=" d-flex">
+                        <div class="services-font pt-4 " >
+                            <h1 class="services-header mb-0">1</h1>
+                            <p class="services-body fw-bold mb-0">DOMAINS</p>
+                        
+                        </div>
+
+                        <div class="list-icon pt-2 ms-auto">
+                            <i class="fas fa-globe fs-1"></i>
+
+                        </div>
+                        
+                    </div>
+                    <hr class="services-hr services-hr-2 mt-1 "> 
+                    </div>
+                      <hr class="d-md-none m-0 w-100" >  
+            
+             <!-- Services summary 3 -->
+
+                    <div class="col service border-end ebn-bg-light ">
+  
+                            <div class=" d-flex">
+                            <div class="services-font pt-4 " >
+                                <h1 class="services-header mb-0">1</h1>
+                                <p class="services-body fw-bold mb-0">TICKETS</p>
+                                
+
+                            </div>
+
+                            <div class="list-icon pt-2 ms-auto">
+                                <i class="fas fa-comments fs-1"></i>
+
+                            </div>
+                            
+                        </div>
+                        <hr class="services-hr services-hr-3 mt-1 "> 
+                    </div>
+
+              <!-- Services summary 4 -->
+
+                    <div class="col service ebn-bg-light ">
+                        <div class=" d-flex">
+                        <div class="services-font pt-4 " >
+                            <h1 class="services-header mb-0">0</h1>
+                            <p class="services-body fw-bold mb-0">INVOICES</p>
+                            
+
+                        </div>
+
+                        <div class="list-icon pt-2 ms-auto">
+                            <i class="fas fa-credit-card fs-1"></i>
+
+                        </div>
+                        
+                    </div>
+                    <hr class="services-hr services-hr-4 mt-1 "> 
+                    </div>
+                       
+                        
+                        
+                       
+                    </div>
+
+                    
+                </div>
+                <!-- Search Bar -->
+                <div class="search-bar my-3 position-relative">
+                    <i class="fas fa-search pt-3 ps-3 fs-6 services-body  position-absolute top-0 start-0"></i>
+                    <input class="form-control form-control-lg fw-light" type="text" placeholder="Enter a question here to search our knowledgebase for answers..." aria-label=".form-control-lg example"> 
+                </div>
+
+       <!------  Service Details Box   ------->
+       <div class="container service-details">
+           <div class="row row-cols-1 row-cols-md-2  g-3">
+           <div class="col">
+               <!-- box 1 -->
+               <div class="row ebn-bg-light border  box-1-border rounded-2 pt-2 mb-3 me-3">
+                   <div class="d-flex">
+                       <i class="fas fa-cube box-heading pt-1 pe-2"></i>
+                        <h1 class="box-heading fw-lighter pt-0">
+                            Your Active Products/ Services
+                        </h1>
+                        <!-- <button type=" button" class="btn box-btn-1 d-block d-xl-flex align-items-center justify-content-center h-50  text-white fw-light ms-auto mt-1 px-1 "> <i class="fas fa-plus pt-1 pe-1 "></i> View All</button> -->
+                        <a href="#" class="text-decoration-none box-btn box-btn-1 rounded-1 text-white fw-light ms-auto box text-nowrap"> <i class="fas fa-plus pt-1 pe-1 "></i>View All</a>
+
+                   </div>
+                   <hr class="mt-1">
+                   <p>It appears you do not have any products/services with us yet. Place an order to get started.</p>
+                
+                </div>
+
+                <!-- box 3 -->
+               <div class="row ebn-bg-light border  box-3-border rounded-2 pt-2 mb-3 me-3">
+                   <div class="d-flex">
+                       <i class="fas fa-globe box-heading pt-1 pe-2"></i>
+                        <h1 class="box-heading fw-lighter pt-0">
+                            Register a New Domain
+                        </h1>
+                        
+
+                   </div>
+                   <hr class="mt-1">
+                   <div class=" mb-3">
+                    <form class="d-flex">
+                      <input class="rounded-0 box-border w-100" type="search" placeholder="" aria-label="Search">
+                      <button class="btn border-none rounded-0 box-btn-3-1 lh-1" type="submit">Search</button>
+                      <button class="btn box-border rounded-0 box-btn-3-2  rounded-end lh-1" type="submit">Transfer</button>
+                    </form>
+                  </div>
+
+                
+                </div>
+
+            </div>
+           <div class="col">
+                <!-- box 2 -->
+                <div class="row ebn-bg-light border  box-2-border rounded-2 pt-2 mb-3 me-3">
+                    <div class="d-flex">
+                        <i class="fas fa-comments box-heading pt-1 pe-2"></i>
+                        <h1 class="box-heading fw-lighter pt-0">
+                            Recent Support Tickets
+                        </h1>
+                        <!-- <button type=" button" class="btn box-btn-1 d-block d-xl-flex align-items-center justify-content-center h-50  text-white fw-light ms-auto mt-1 px-1 "> <i class="fas fa-plus pt-1 pe-1 "></i> View All</button> -->
+                        <a href="#" class="text-decoration-none box-btn box-btn-2 rounded-1 text-white fw-light ms-auto box text-nowrap"> <i class="fas fa-plus pt-1 pe-1 "></i>Open new ticket</a>
+
+                    </div>
+                    <hr class="mt-1">
+                    <p>No Recent Tickets Found. If you need any help, please open a ticket.</p>
+                
+                </div>
+
+               <!-- box 4 -->
+               <div class="row ebn-bg-light border  box-4-border rounded-2 pt-2 mb-3 me-3">
+                <div class="d-flex">
+                    <i class="fas fa-newspaper box-heading pt-1 pe-2"></i>
+                    <h1 class="box-heading fw-lighter pt-0">
+                        Recent News
+                    </h1>
+                    <!-- <button type=" button" class="btn box-btn-1 d-block d-xl-flex align-items-center justify-content-center h-50  text-white fw-light ms-auto mt-1 px-1 "> <i class="fas fa-plus pt-1 pe-1 "></i> View All</button> -->
+                    <a href="#" class="text-decoration-none box-btn box-btn-4 rounded-1 text-white fw-light ms-auto box text-nowrap"> <i class="fas fa-plus pt-1 pe-1 "></i>View All</a>
+
+                </div>
+                <hr class="mt-1">
+                <p class=" mb-0"><small>Thank you for choosing EBNHOST !! </small> </p>
+                <p> <small> Saturday, January 20th, 2018 </small></p>
+            
+            </div>           
+        </div>
+       </div>
+       </div>
+       
+              </div>
+              <!-- --- Right Section ENDS  ---- -->
+            </div>
+          </div>
+    </main>
+    <hr class="mb-0">
+    <footer class="ebn-bg-light align-items-center d-flex ">
+        <div class="container d-flex ">
+            <p class=" mb-0 p-3"><small>Copyright © 2021 EBN HOST LTD. All Rights Reserved.</small></p>
+        <a href="#" class="ms-auto p-3"><i class="far fa-caret-square-up fs-3 "></i></a>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
